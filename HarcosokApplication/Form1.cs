@@ -91,7 +91,6 @@ namespace HarcosokApplication
 
         private void myupdate()
         {
-            //TODO:combobox + listbox frissitése
 
             comboBox_hasznalo.Items.Clear();
             MySqlDataReader dr = sql.ExecuteReader();
@@ -124,14 +123,11 @@ namespace HarcosokApplication
         {
 
 
-
             myupdate();
         }
 
         private void button_delete_Click(object sender, EventArgs e)
         {
-
-
 
 
             myupdate();
